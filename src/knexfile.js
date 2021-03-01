@@ -9,7 +9,6 @@ module.exports = {
       user:'postgres',
       password:'progresa2021',
       database:'crudjson'
-
     }
   },
   test: {
@@ -21,6 +20,6 @@ module.exports = {
       database:'testcrudjson'
 
     }
-  },
+  }
 
 };
