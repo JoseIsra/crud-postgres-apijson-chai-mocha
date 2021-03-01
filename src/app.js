@@ -1,7 +1,7 @@
 const express = require('express');
 const middleware = require('./middlewares/handlesError');
 const app = express();
-
+require('dotenv').config();
 
 
 app.use(express.json());

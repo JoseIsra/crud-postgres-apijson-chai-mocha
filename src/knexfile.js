@@ -7,7 +7,7 @@ module.exports = {
     connection: {
       host:'localhost',
       user:'postgres',
-      password:'progresa2021',
+      password:process.env.DB_PASSWORD,
       database:'crudjson'
     }
   },
@@ -16,7 +16,7 @@ module.exports = {
     connection: {
       host:'localhost',
       user:'postgres',
-      password:'progresa2021',
+      password:process.env.DB_PASSWORD,
       database:'testcrudjson'
 
     }
